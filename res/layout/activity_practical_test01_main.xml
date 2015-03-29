@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="ro.pub.cs.systems.pdsd.practicaltest01.PracticalTest01MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+
+        <EditText
+        android:id="@+id/editTextstanga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        android:text="0"
+        android:gravity="center"
+        android:saveEnabled="false"
+        
+         />
+
+    <EditText
+        android:id="@+id/editTextdreapta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:enabled="false"
+        android:text="0"
+        android:gravity="center"
+        android:saveEnabled="false"
+        
+         >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/editTextPressStanga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Press Me!"
+              />
+
+        <Button
+            android:id="@+id/editTextPressDreapta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            
+            android:ems="10"
+            android:text="Press Me, Too!"
+              />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToSecondary" />
+
+</LinearLayout>
